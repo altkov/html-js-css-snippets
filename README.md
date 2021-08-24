@@ -26,10 +26,13 @@ This method highlights active menu item if child url is opened.
 
 Like on page https://site.com/parent/child the menu item with link https://site.com/parent will be highlighted
 
+***
 
 ### class, string, takes any string, default: 'active'
 
 The class that will be added to menu item
+
+***
 
 The active menu item will have class 'active', to change it use class property of options object
 
