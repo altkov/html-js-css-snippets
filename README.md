@@ -1,6 +1,6 @@
 # html js css snippets
 
-1. menu-active is jQuery plugin that highlight the active item in your menu.
+## 1. menu-active is jQuery plugin that highlight the active item in your menu.
 
 How to use:
 
@@ -10,7 +10,7 @@ Select menu items (or links) and call menuActive function.
 
 The function have one argument - the options object that includes:
 
-method, string, values: 'equal', 'search'
+### method, string, values: 'equal', 'search'
 
 The method of comparasion of menu item link and the page link
 
@@ -27,7 +27,7 @@ This method highlights active menu item if child url is opened.
 Like on page https://site.com/parent/child the menu item with link https://site.com/parent will be highlighted
 
 
-class, string, takes any string, default: 'active'
+### class, string, takes any string, default: 'active'
 
 The class that will be added to menu item
 
