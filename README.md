@@ -16,10 +16,6 @@ The method of comparasion of menu item link and the page link
 
 'equal' for exact compare url of the page and the link in menu item
 
-usage: 
-  
-    $('.your-menu-items').menuActive('equal')
-
 just leave it empty to call 'search' method that will search the link in memu item in the page link. 
 
 This method highlights active menu item if child url is opened.
