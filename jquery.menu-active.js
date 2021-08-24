@@ -1,7 +1,13 @@
 (function($) {
-    $.fn.menuActive = function(method) {
+    $.fn.menuActive = function(options) {
         var w = window;
-        var compare = (method === 'equal') ?
+
+        var settings = $.fn.extend({
+            method: 'search',
+            class: 'active',
+        }, options);
+
+        var compare = (settings.method === 'equal') ?
             (function(link) {
                 return (link === w.location.href
                     || link === w.location.href + '/'
@@ -18,7 +24,7 @@
             var $link = ($(this).is('a')) ? $(this) : $(this).find('a');
             var link = $link.get(0).href;
             if ( compare(link) ) {
-                $(this).addClass('active');
+                $(this).addClass(settings.class);
             }
         });
 
