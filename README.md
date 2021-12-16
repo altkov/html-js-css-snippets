@@ -1,6 +1,6 @@
-# html js css snippets
+# JQuery Menu Active 
 
-## 1. menu-active is jQuery plugin that highlight the active item in your menu.
+## menu-active is jQuery plugin that highlight the active item in your menu.
 
 How to use:
 
